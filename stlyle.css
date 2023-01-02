@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: rgb(39, 45, 47);
+    clip-path: polygon(0 0, 20% 0, 31% 99%, 11% 99%);          
+    height: 100vh;
+    opacity: 0.9;
+    z-index: -1;
+}
+.frm{
+    position: relative;
+    top:200px;
+    left: 60px;
+    padding: 40px!important;
+    height: auto;
+    width: 360px;
+    border-top: 20px solid rgb(0, 0, 1);
+    border-bottom: 20px solid rgb(0, 0, 1);
+    border-right: 10px solid rgb(0, 0, 1);
+    border-left: 50px solid rgb(0, 0, 1);
+    border-radius: 20px 10px 10px 20px;
+    background-image: linear-gradient(to left,rgb(47, 47, 52),rgb(127, 127, 134));
+}
+.second-section{
+    position: relative;
+    top: 150px;
+    left:60px;
+    height: 450px;
+    width: 550px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px black;
+}
+
+
